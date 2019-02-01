@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EntityFrameWorkModelStoreContainer" CdmEntityContainer="EntityFrameWorkEntities">
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="IsTypeOf(EntityFrameWorkModel.Employee)">
+        <MappingFragment StoreEntitySet="Employees">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Emp_Name" ColumnName="Emp_Name" />
+          <ScalarProperty Name="Emp_ID" ColumnName="Emp_ID" />
+          <ScalarProperty Name="Gender_ID" ColumnName="Gender_ID" />
+          <ScalarProperty Name="Emp_BirthDay" ColumnName="Emp_BirthDay" />
+          <ScalarProperty Name="Emp_Phone" ColumnName="Emp_Phone" />
+          <ScalarProperty Name="Emp_Salary" ColumnName="Emp_Salary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Genders">
+      <EntityTypeMapping TypeName="IsTypeOf(EntityFrameWorkModel.Gender)">
+        <MappingFragment StoreEntitySet="Genders">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Gender1" ColumnName="Gender1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

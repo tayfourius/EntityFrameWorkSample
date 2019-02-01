@@ -1,0 +1,37 @@
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\EntityFrameWorkExample.exe.config
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\EntityFrameWorkExample.exe
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\EntityFrameWorkExample.pdb
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.csprojResolveAssemblyReference.cache
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.Properties.Resources.resources
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.csproj.GenerateResource.Cache
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.exe
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.pdb
+C:\Users\Ahmed M. Dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\DAL.dll
+C:\Users\Ahmed M. Dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\Repository.dll
+C:\Users\Ahmed M. Dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\EntityFramework.dll
+C:\Users\Ahmed M. Dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\DAL.pdb
+C:\Users\Ahmed M. Dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\Repository.pdb
+C:\Users\Ahmed M. Dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\EntityFramework.xml
+C:\Users\Ahmed M. Dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.FrmEmpRegister.resources
+C:\Users\Ahmed M. Dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ahmed M. Dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ahmed M. Dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.FormEmployeesList.resources
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\EntityFrameWorkExample.exe.config
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\EntityFrameWorkExample.exe
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\EntityFrameWorkExample.pdb
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\DAL.dll
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\EntityFramework.dll
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\EntityFramework.SqlServer.dll
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\Repository.dll
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\DAL.pdb
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\Repository.pdb
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\EntityFramework.xml
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\bin\Debug\EntityFramework.SqlServer.xml
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.csprojResolveAssemblyReference.cache
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.FormEmployeesList.resources
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.FrmEmpRegister.resources
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.Properties.Resources.resources
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.csproj.GenerateResource.Cache
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.exe
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.pdb
+D:\DataBase\EntityFrameWorkExample\EntityFrameWorkExample\obj\Debug\EntityFrameWorkExample.FrmMain.resources

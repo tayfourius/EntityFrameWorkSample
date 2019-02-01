@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EntityFrameWorkModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="EntityFrameWorkEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Employees" EntityType="EntityFrameWorkModel.Employee" />
+    <EntitySet Name="Genders" EntityType="EntityFrameWorkModel.Gender" />
+    <AssociationSet Name="FK_Employee_Gender" Association="EntityFrameWorkModel.FK_Employee_Gender">
+      <End Role="Gender" EntitySet="Genders" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Emp_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Emp_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Gender_ID" Type="Int32" />
+    <Property Name="Emp_BirthDay" Type="DateTime" Precision="0" />
+    <Property Name="Emp_Phone" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Emp_Salary" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="Gender" Relationship="EntityFrameWorkModel.FK_Employee_Gender" FromRole="Employee" ToRole="Gender" />
+  </EntityType>
+  <EntityType Name="Gender">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Gender1" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Employees" Relationship="EntityFrameWorkModel.FK_Employee_Gender" FromRole="Gender" ToRole="Employee" />
+  </EntityType>
+  <Association Name="FK_Employee_Gender">
+    <End Type="EntityFrameWorkModel.Gender" Role="Gender" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="EntityFrameWorkModel.Employee" Role="Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gender">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="Gender_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

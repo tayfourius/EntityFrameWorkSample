@@ -1,0 +1,18 @@
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\DAL\bin\Debug\DAL.dll.config
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\DAL\bin\Debug\DAL.dll
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\DAL\bin\Debug\DAL.pdb
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\DAL\bin\Debug\EntityFramework.dll
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\DAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\DAL\bin\Debug\EntityFramework.xml
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\DAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\DAL\obj\Debug\DAL.dll
+c:\users\ahmed m. dabas\documents\visual studio 2015\Projects\EntityFrameWorkExample\DAL\obj\Debug\DAL.pdb
+D:\DataBase\EntityFrameWorkExample\DAL\bin\Debug\DAL.dll.config
+D:\DataBase\EntityFrameWorkExample\DAL\bin\Debug\DAL.dll
+D:\DataBase\EntityFrameWorkExample\DAL\bin\Debug\DAL.pdb
+D:\DataBase\EntityFrameWorkExample\DAL\bin\Debug\EntityFramework.dll
+D:\DataBase\EntityFrameWorkExample\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\DataBase\EntityFrameWorkExample\DAL\bin\Debug\EntityFramework.xml
+D:\DataBase\EntityFrameWorkExample\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\DataBase\EntityFrameWorkExample\DAL\obj\Debug\DAL.dll
+D:\DataBase\EntityFrameWorkExample\DAL\obj\Debug\DAL.pdb

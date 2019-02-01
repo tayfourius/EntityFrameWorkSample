@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EntityFrameWorkModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="EntityFrameWorkModelStoreContainer">
+    <EntitySet Name="Employees" EntityType="EntityFrameWorkModel.Store.Employees" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Genders" EntityType="EntityFrameWorkModel.Store.Genders" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Employee_Gender" Association="EntityFrameWorkModel.Store.FK_Employee_Gender">
+      <End Role="Gender" EntitySet="Genders" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Emp_Name" Type="nvarchar" Nullable="true" MaxLength="100" />
+    <Property Name="Emp_ID" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Gender_ID" Type="int" Nullable="true" />
+    <Property Name="Emp_BirthDay" Type="datetime" Nullable="true" />
+    <Property Name="Emp_Phone" Type="nvarchar" Nullable="true" MaxLength="10" />
+    <Property Name="Emp_Salary" Type="decimal" Nullable="true" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Genders">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Gender1" Type="nvarchar" Nullable="true" MaxLength="5" />
+  </EntityType>
+  <Association Name="FK_Employee_Gender">
+    <End Role="Gender" Type="EntityFrameWorkModel.Store.Genders" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Employee" Type="EntityFrameWorkModel.Store.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gender">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="Gender_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
